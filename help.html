@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>help</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/help.css" />
+    <link rel="stylesheet" href="css/head.css" />
+    <link rel="stylesheet" href="css/tasbeeh.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <div class="toast-container" id="toastContainer"></div>
+            <ul class="nav-buttons" id="navButtons">
+                <li><a class="nav-button" onclick="setActive(this)" href="index.html">الرئيسية</a></li>
+                <li><a class="nav-button" onclick="setActive(this)" href="product.html">المنتجات المقاطعة</a></li>
+                <li><a class="nav-button" onclick="setActive(this)" href="alternative.html">المنتجات البديلة</a></li>
+                <li><a class="nav-button" onclick="setActive(this)" href="vedio.html">فيديوهات توعوية</a></li>
+                <li><a class="nav-button" onclick="setActive(this)" href="duaa.html">احاديث وادعية</a></li>
+                <li><a class="nav-button active" onclick="setActive(this)" >كيف تساعد؟</a></li>
+            </ul>
+            <div class="logo-container">
+                <span class="logo-text">MUQATAA DZ</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="help-section">
+                <h1></h1> 
+                
+                <div class="help-cards">
+                    <div class="help-card">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <h3>المقاطعة الاقتصادية</h3>
+                        <p>تجنب شراء المنتجات الداعمة للاحتلال واستبدلها ببدائل محلية</p>
+                    </div>
+                    
+                    <div class="help-card">
+                        <i class="fas fa-share-alt"></i>
+                        <h3>نشر التوعية</h3>
+                        <p>شارك المعلومات الموثوقة على منصات التواصل الاجتماعي</p>
+                    </div>
+                
+                    <div class="help-card">
+                        <i class="fas fa-donate"></i>
+                        <h3>التبرعات</h3>
+                        <p>ادعم المنظمات الإنسانية الموثوقة التي تساعد الشعب الفلسطيني</p>
+                    </div>
+                </div>
+                
+                <div class="social-section">
+                    <h2>تواصل معنا لنشر القضية</h2>
+                    <p>شاركنا أفكارك و لنطبقها على أرض الواقع حسابات المطور </p>
+                    
+                    <div class="social-icons">
+                        <div class="social-icon facebook" onclick="window.open('https://www.facebook.com/share/1AXtQEp1T3/younes.roubache.2025', '_blank')">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        
+                        <div class="social-icon instagram" onclick="window.open('https://www.instagram.com/setif_developers_group', '_blank')">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        
+                        <div class="social-icon email" onclick="window.location.href='mailto:younesroubache20@gmail.com'">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+    <script src="js/tasbeeh.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>
