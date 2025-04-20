@@ -115,9 +115,9 @@ header {
         
 @media (max-width: 768px) {
     .header{
-       width: 95%;
-       border-radius:20px;
-       right:10px;
+       width: 98%;
+       border-radius:15px;
+       right:5px;
     }
     .header-container {
         flex-wrap: wrap;
