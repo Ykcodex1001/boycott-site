@@ -6,6 +6,7 @@
     font-weight: bold;
     border: 2px solid #d32f2f;
     margin: 1rem 0;
+    text-align:center;
 }
         
 .counter-container {
