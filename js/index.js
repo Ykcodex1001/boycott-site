@@ -28,7 +28,7 @@ setInterval(() => {
 
 window.onload = startCounter;
 
-const ctx = document.getElementById('boycottChart').getContext('2d');
+const ctx = document.getElementById('boycottChart');
 new Chart(ctx, {
     type: 'bar',
     data: {
