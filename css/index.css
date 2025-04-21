@@ -1,5 +1,6 @@
 .dashboard-card {
     width: 93%;
+    right: 5px;
     background-color:#fff3e0;
     padding: 1rem;
     border-radius: 10px;
@@ -11,6 +12,7 @@
         
 .counter-container {
     width: 93%;
+    right: 5px;
     padding: 1.5rem;
     background-color: #ffebee;
     border-radius: 15px;
@@ -31,6 +33,7 @@
         
 .chart-container {
     width: 95%;
+    right: 5px;
     order: 2;
     background-color:white;
     border-radius:15px;
