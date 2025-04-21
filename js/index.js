@@ -1,4 +1,4 @@
-let targetNumber = 1234567; 
+let targetNumber = 100000000; 
 let duration = 3000; 
 let steps = 50; 
 
@@ -22,21 +22,21 @@ function startCounter() {
 }
 
 setInterval(() => {
-    targetNumber += 10;
+    targetNumber += 25;
     startCounter();
 }, 5000);
 
 window.onload = startCounter;
 
-const ctx = document.getElementById('boycottChart');
+const ctx = document.getElementById('boycottChart').getContext('2d');
 new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['نستله', 'ماكدونالدز', 'بيبسي'],
+        labels: ['نستله', 'ماكدونالدز', 'بيبسي','كوكا كولا'],
         datasets: [{
             label: 'انخفاض المبيعات (%)',
-            data: [65, 48, 52],
-            backgroundColor: ['#CE1126', '#CE1126', '#CE1126'],
+            data: [65, 57, 90,50],
+            backgroundColor: ['#CE1126', '#CE1126', '#CE1126','#CE1126'],
             borderColor: '#007A3D',
             borderWidth: 2,
         }]
