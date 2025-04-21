@@ -1,5 +1,4 @@
         body {
-            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
@@ -20,21 +19,22 @@
         
 body {
     padding-top: 80px; 
+    font-family:'cairo', sans-serif;
 }
         
         
 header {
-    background-color: #F5D042; 
+    background-color:#D32F2F; 
     color: #000;
     padding: 0.9rem 0;
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    width: 100%;
+    right: 5px;
+    width: 95%;
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid #007A3D; 
+    border-bottom: 2px solid #388E3C; 
 }
         
 .header-container {
@@ -113,11 +113,14 @@ header {
 }
         
 @media (max-width: 768px) {
-    .header{
-       width: 98%;
-       border-radius:15px;
-       right:5px;
+    
+    .container{
+    max-width:480px;
+    margin:auto;
+    padding:1rem;
+
     }
+   
     .header-container {
         flex-wrap: wrap;
         padding: 0.2rem;
